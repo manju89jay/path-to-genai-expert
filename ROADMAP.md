@@ -10,18 +10,18 @@
 
 ## Quarter 1 — Core Fluency & Agentic Patterns
 
-### Master/Advance
+### Q1 Master/Advance
 
 - LLM essentials (tokens, context windows, tool/function calling, structured JSON output, streaming)
 - RAG basics (chunking, embeddings, hybrid search, reranking, vector stores, routing)
 - Agents & orchestration (planning/critique loops, typed tools, guardrails)
 - Latency/cost knobs (caching, model selection, response compression)
 
-### Deliverable
+### Q1 Deliverable
 
 - **Spec-to-Code Assistant**: RAG + function-calling agent to draft adapter code/diffs.
 
-### KPIs
+### Q1 KPIs
 
 - Dev acceptance rate ≥ 30%
 - P50 latency ≤ 2s; € per task tracked
@@ -31,18 +31,18 @@
 
 ## Quarter 2 — MLOps, Evaluation & Productionization
 
-### Master/Advance
+### Q2 Master/Advance
 
 - Experiment tracking & versioning (datasets, prompts, models)
 - Offline & online evals (faithfulness, answer relevance, Recall@k, function-call accuracy)
 - Observability & tracing (prompt→tools→output), cost/latency dashboards
 - CI/CD for AI apps, prompt pinning, shadow deploys, data governance basics
 
-### Deliverable
+### Q2 Deliverable
 
 - **Requirements Traceability Copilot** (req → design → code → test), drift alerts
 
-### KPIs
+### Q2 KPIs
 
 - Eval suite ≥ 50 golden Qs; tracing enabled
 - CI green; rollback plan defined
@@ -52,7 +52,7 @@
 
 ## Quarter 3 — Serving, Performance & Edge (Automotive-adjacent)
 
-### Master/Advance
+### Q3 Master/Advance
 
 - Inference stacks (serverless vs self-host), scheduling, batching/multiplexing
 - Optimization (quantization 8/4-bit, distillation, speculative decoding, KV caching)
@@ -60,11 +60,11 @@
 - Edge patterns (on-device constraints, offline modes, safety fallbacks)
 - Simulation testing (deterministic replays, failure injection)
 
-### Deliverable
+### Q3 Deliverable
 
 - **Simulation Test Synthesizer**: mines failure logs → proposes new scenarios + Jira MREs
 
-### KPIs
+### Q3 KPIs
 
 - Throughput +50%, cost/task −30%
 - Offline demo runs within memory/thermal budget
@@ -73,18 +73,18 @@
 
 ## Quarter 4 — Safety, Governance & Product Leadership
 
-### Master/Advance
+### Q4 Master/Advance
 
 - Safety & policy (red-teaming prompt attacks/tool abuse, permissioning, HITL)
 - Governance (model cards, data lineage, audit logs; NIST AI RMF; EU AI Act awareness)
 - Automotive safety mindset (ISO 26262/21448 concepts for ML-adjacent tools)
 - Product leadership (PRDs, ADRs, risk register, go/no-go criteria)
 
-### Deliverable
+### Q4 Deliverable
 
 - **Release-Readiness AI Gatekeeper**: pre-merge evals, safety checks, traceability report
 
-### KPIs
+### Q4 KPIs
 
 - Defects caught pre-merge ↑; audit trail completeness ≥ 90%
 - Red-team report delivered; governance checklist adopted
