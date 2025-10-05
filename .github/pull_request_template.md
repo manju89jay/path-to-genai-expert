@@ -4,7 +4,7 @@
 
 ## Linked Issues
 
-- #
+- Issue link (e.g., #123)
 
 ## Checklist
 
