@@ -1,17 +1,10 @@
 ## Summary
-
-(What & why)
-
-## Linked Issues
-
-- Issue link (e.g., #123)
+Restructure to simple, topic-first roadmap.
 
 ## Checklist
+- [ ] README updated
+- [ ] ROADMAP includes topics + resources
+- [ ] Old scaffolding removed
 
-- [ ] Updated weekly logs / ROADMAP as needed
-- [ ] CI passes (lint + link check + index build)
-- [ ] Screenshots or file tree included
-
-## Screenshots / Tree
-
-(attach)
+## Notes
+Add demos over time; keep each demo minimal with a short README + metrics.

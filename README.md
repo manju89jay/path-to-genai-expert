@@ -1,25 +1,16 @@
-# AI Leadership & Automation Roadmap (1 Year)
+# AI Engineering Portfolio — Simple Roadmap
 
-Track my AI learning and project leadership journey. This repo holds the **roadmap**, **resources**, **weekly logs**, **ADRs**, and **lightweight CI** so I never lose history.
+A lightweight, topic-first roadmap to learn and showcase essential AI engineering skills—no timeline, just the core areas and the best resources. See **ROADMAP.md** for details.
 
-## Quickstart
+## Why this repo
+- Stay focused on essentials (agents, RAG, evals, serving, safety).
+- Add small demos as you learn (one folder per topic).
+- Keep decisions visible via short notes in each demo.
 
-- Add weekly notes in `logs/week-XX.md` (use `_TEMPLATE_WEEKLY.md`).
-- Update checkboxes in `ROADMAP.md` each Friday.
-- Add resources to `RESOURCES.md` → PR for traceable history.
+## How to use
+1. Pick a topic from the roadmap.
+2. Choose **one primary resource** and **one main tool**.
+3. Build a tiny demo; record key metrics (latency, cost, accuracy).
+4. Add a brief `README.md` inside the demo folder with lessons learned.
 
-## Structure
-
-- `ROADMAP.md` — quarterly plan, KPIs, milestones
-- `RESOURCES.md` — curated links by topic
-- `logs/` — weekly logs + auto index
-- `docs/adrs/` — Architecture Decision Records
-- `.github/` — PR/Issue templates, CI
-- `scripts/` — helper scripts
-
-## Why this exists
-
-- **Durable history:** PRs + changelog capture decisions and progress.
-- **Lead AI projects:** links + templates + evals make it production-minded.
-
-— {{YOUR_NAME}}
+— gpt-5-codex
