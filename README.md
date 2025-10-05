@@ -3,11 +3,13 @@
 Track my AI learning and project leadership journey. This repo holds the **roadmap**, **resources**, **weekly logs**, **ADRs**, and **lightweight CI** so I never lose history.
 
 ## Quickstart
+
 - Add weekly notes in `logs/week-XX.md` (use `_TEMPLATE_WEEKLY.md`).
 - Update checkboxes in `ROADMAP.md` each Friday.
 - Add resources to `RESOURCES.md` → PR for traceable history.
 
 ## Structure
+
 - `ROADMAP.md` — quarterly plan, KPIs, milestones
 - `RESOURCES.md` — curated links by topic
 - `logs/` — weekly logs + auto index
@@ -16,6 +18,7 @@ Track my AI learning and project leadership journey. This repo holds the **roadm
 - `scripts/` — helper scripts
 
 ## Why this exists
+
 - **Durable history:** PRs + changelog capture decisions and progress.
 - **Lead AI projects:** links + templates + evals make it production-minded.
 
