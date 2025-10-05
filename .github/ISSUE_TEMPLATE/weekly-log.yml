@@ -1,0 +1,28 @@
+name: "Weekly Log"
+description: "Create a new weekly log file"
+labels: ["weekly-log"]
+body:
+  - type: input
+    id: week
+    attributes:
+      label: Week number (e.g., 05)
+      placeholder: "05"
+    validations:
+      required: true
+  - type: input
+    id: start
+    attributes:
+      label: Start date (YYYY-MM-DD)
+    validations:
+      required: true
+  - type: input
+    id: end
+    attributes:
+      label: End date (YYYY-MM-DD)
+    validations:
+      required: true
+  - type: textarea
+    id: goals
+    attributes:
+      label: Goals
+      placeholder: "- [ ] …"
